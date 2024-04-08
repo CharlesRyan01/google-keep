@@ -1,0 +1,30 @@
+#outputtricep{
+    width: 350px;
+    height: 320px;
+    box-shadow: 0 8px 16px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 80px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#outputtricep h1{
+    text-align: center;
+    border-bottom: solid 2px black;
+}
+#outputtricep h4{
+    font-size: 20px;
+}
+#outputtricep div{
+    display: block;
+}
+#outputtricep h2{
+    text-align: center;
+}
+#outputtricep h3{
+    text-align: center;
+}
+#header{
+    border-bottom: solid 2px black;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,30 @@
+#outputshoulders{
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 8px 16px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 80px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#outputshoulders h1{
+    text-align: center;
+    border-bottom: solid 2px black;
+}
+#outputshoulders h4{
+    font-size: 20px;
+}
+#outputshoulders div{
+    display: block;
+}
+#outputshoulders h2{
+    text-align: center;
+}
+#outputshoulders h3{
+    text-align: center;
+}
+#header{
+    border-bottom: solid 2px black;
+    margin-bottom: 20px;
+}

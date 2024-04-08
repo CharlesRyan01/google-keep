@@ -1,0 +1,82 @@
+.right-nav p{
+     padding-inline: 30px;
+     font-size: x-large;
+}
+#button{
+    height: 35px;
+    width:150px ;
+    background-color: transparent;
+    font-size: large;
+    align-content: center;
+    color: white;
+    border-color: white;
+}
+.nav span img{
+    height: 20px;
+    width: 150px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    align-content: center;
+    border-bottom: solid 1px white;
+    width: 100%;
+}
+.right-nav{
+    display: flex;
+    margin-left: 340px;
+    color: white;
+    right: 0;
+}
+body{
+    background-image: url(J7zZMW.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#text{
+    margin-top: 60px;
+    margin-left: 20px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 70px;
+    width: 100%;
+}
+.right-nav :hover{
+    color: red;
+    cursor: pointer;
+}
+#button :hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+a{
+    color:white;
+}
+#icon{
+    color: white;
+    height: 30px;
+    width: 30px;
+    margin-top: 25px;
+    display: none;
+}
+
+@media screen and (max-width:1067px){
+    #icon{
+        display: block;
+        position: relative;
+    }
+    .right-nav{
+        right: -200px;
+        display: block;
+        background-color: black;
+        color: white;
+        height: 100vh;
+        width: 150px;
+        position: absolute;
+        transition: 2s;
+    }
+}

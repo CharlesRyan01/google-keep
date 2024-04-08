@@ -1,0 +1,145 @@
+#chest{
+    height: 260px;
+    width: 430px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-image: url(Men_Muscle_Belly_Black_and_white_Dumbbells_546857_1280x818.jpg);
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#chest p{
+    margin-top: 150px;
+    font-size: 40px;
+    color: white;
+}
+#shoulder{
+    background-image: url(shutterstock_1012698589.webp);
+    background-size: cover;
+    width: 430px;
+    height:260px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#shoulder p{
+    margin-top: 150px;
+    font-size: 40px;
+    color: white;
+}
+#legs{
+    background-image: url(vastus_lateralis_pain_480x480.webp);
+    background-size: cover;
+    width: 430px;
+    height:260px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#legs p{
+    margin-top: 150px;
+    font-size: 40px;
+    color: white; 
+}
+#biceps{
+    background-image: url(effective-reps.png);
+    background-size: cover;
+    width: 430px;
+    height:260px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: 10px; 
+    margin-left: 100px;
+}
+#biceps p{
+    margin-top: 150px;
+    font-size: 40px;
+    color: white;
+}
+#tricep{
+    background-image: url(Assisted-Dips-Useful-or-Just-a-Sissy-Exercise.jpeg);
+    background-size: cover;
+    width: 430px;
+    height:260px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: 10px; 
+    margin-left: 100px;
+}
+#tricep p{
+    margin-top: 150px;
+    font-size: 40px;
+    color: white;
+}
+#core{
+    background-image: url(OIP\ \(1\).jpg);
+    background-size: cover;
+    width: 430px;
+    height:260px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: 10px; 
+    margin-left: 100px;
+}
+#core p{
+    margin-top: 150px;
+    font-size: 40px;
+    color: white;
+}
+#back{
+    background-image: url(back.jpg);
+    background-size: cover;
+    width: 430px;
+    height:260px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: 10px; 
+    margin-left: 100px;
+}
+#back p{
+    margin-top: 150px;
+    font-size: 40px;
+    color: white;
+}
+#workouts{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+body{
+    background-image: url(fe0a0cb1d6c26297c6b81f648f24fc0b.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+nav{
+    font-size: 40px;
+    border-bottom: solid 2px white;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: transparent;
+}
+#chest :hover{
+    color: rgb(150, 6, 6);
+}
+#back :hover{
+    color: rgb(150, 6, 6);
+}
+#shoulder :hover{
+    color: rgb(150, 6, 6);
+}
+#core :hover{
+    color: rgb(150, 6, 6);
+}
+#legs :hover{
+    color: rgb(150, 6, 6);
+}
+#biceps :hover{
+    color: rgb(150, 6, 6);
+}
+#tricep :hover{
+    color: rgb(150, 6, 6);
+}

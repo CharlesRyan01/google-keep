@@ -1,0 +1,30 @@
+#outputback{
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 8px 16px 0;
+    margin-top:20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 80px;
+    border-radius: 10px;
+}
+#outputback h1{
+    text-align: center;
+    border-bottom: solid 2px black;
+}
+#outputback h4{
+    font-size: 20px;
+}
+#outputback div{
+    display: block;
+}
+#outputback h2{
+    text-align: center;
+}
+#outputback h3{
+    text-align: center;
+}
+#header{
+    border-bottom: solid 2px black;
+    margin-bottom: 20px;
+}
