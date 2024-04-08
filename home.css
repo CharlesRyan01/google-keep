@@ -64,7 +64,7 @@ a{
     display: none;
 }
 
-@media screen and (max-width:1067px){
+@media screen and (max-width:1068px){
     #icon{
         display: block;
         position: relative;
